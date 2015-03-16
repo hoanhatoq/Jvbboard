@@ -1,0 +1,75 @@
+/* css jvb board  */
+ .company{
+ 	border: 1px solid darkorange;
+ 	height: 50px;
+ 	border-radius: 5px;    
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: justify;
+ }
+ .board{
+ 	margin-left: 20px;
+ }
+ .message_board {
+  /*padding-right: 3%;*/
+  padding-right: 40px;
+  background: #fff;
+  color: #003d4c;
+ }
+
+ .message_board_head {  
+  position: absolute;    
+  right:1%;  
+ } 
+ .head_img {
+  width: 20px;
+ }
+ .message_board_body {
+  background-color: EBEBED;
+  text-align: justify;  
+ } 
+ .previous {
+    text-align: right;
+    margin-right: 30px;
+ }
+ .error {
+  color: red;
+ } 
+ .send {
+  margin-top: 5px;
+  text-align: right;
+ } 
+ .nameteam {
+    border: 1px solid darkorange;
+    background-color: #DAEEF3;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: left;
+    text-transform: uppercase;
+ }
+ .namebom {
+    border: 1px solid darkorange;
+    background-color: #DAEEF3;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: left;
+    text-transform: uppercase;
+ }
+ .nameteam img{
+ width: 20px;
+ padding-left: 10px;
+ }
+
+ #forward {
+    visibility: hidden;
+ }
+
+ .message_title {    
+    background-color: #DAEEF3;
+    margin-right: 15px;
+    font-weight: bold;
+ }

@@ -1,0 +1,68 @@
+body {
+	background-color:B8B6B5 ;
+}
+
+#form {
+    background-color: white;
+    border: 2px solid #3399FF;
+    border-radius: 36px;
+    margin: 8% 30%;
+	padding: 5% 5% 5%;
+	width: 25%;
+	height:;
+}
+#h1 {
+    background-color: powderblue;
+    border: 1px dotted;
+    font-size: 19px;
+    margin: 0 0 8%;
+    text-align: center;
+    width: 99%;
+}
+.input.text.required {
+    border: 1px dotted;
+}
+.input.text.required > label {
+    background-color: powderblue;
+    padding-right: 25px;
+	padding-left: 3px;
+    width: 30%;
+	border-right: 1px dotted;
+}
+
+.input.text.required > input {
+    border: medium none;
+    width: 71%;
+}
+.input.password.required {
+    border: 1px dotted;
+	border-top:none;
+}
+.input.password.required > label {
+    background-color: powderblue;
+    padding-right: 28px;
+	padding-left: 3px;
+    width: 30%;
+	border-right: 1px dotted;
+}
+
+.input.password.required > input {
+    border: medium none;
+    width: 71%;
+}
+
+.check {
+    clear: both;
+    float: left;
+    margin-top: 10px;
+	font-size: 12px;
+}
+.submit > input {
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 70px;
+    margin-top: 10px;
+    padding: 2px 15px;
+}
