@@ -1,0 +1,15 @@
+1) phpMyAdmin URL
+http://dbadmin.hatoq.net/
+BasicAuthenticate: db2015/2015bd
+
+#Thong tin DB server
+host: localhost
+account: bbs/VZRXfnmKwXjapMPG
+
+
+2)FTP server
+host: bbs.hatoq.net
+account: bbsweb/Ue02UxJk
+
+3) folder web
+/html
