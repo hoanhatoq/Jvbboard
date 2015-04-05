@@ -1,11 +1,12 @@
 /* css jvb board  */
  .company{
- 	border: 1px solid darkorange;
- 	height: 50px;
- 	border-radius: 5px;    
+ 	/*border: 1px solid darkorange;*/
+ 	  height: 50px;
+ 	  border-radius: 5px;    
     margin-bottom: 5px;
     padding: 5px;
     text-align: justify;
+    width: 100%;
  }
  .board{
  	margin-left: 20px;
@@ -25,8 +26,10 @@
   width: 20px;
  }
  .message_board_body {
-  background-color: EBEBED;
-  text-align: justify;  
+  width: 100%;
+  text-align: justify; 
+  padding: 10px;
+  margin: 5px; 
  } 
  .previous {
     text-align: right;
@@ -40,7 +43,7 @@
   text-align: right;
  } 
  .nameteam {
-    border: 1px solid darkorange;
+   /* border: 1px solid darkorange;*/
     background-color: #DAEEF3;
     border-radius: 5px;
     font-weight: bold;
@@ -50,8 +53,8 @@
     text-transform: uppercase;
  }
  .namebom {
-    border: 1px solid darkorange;
-    background-color: #DAEEF3;
+    /*border: 1px solid darkorange;
+*/    background-color: #DAEEF3;
     border-radius: 5px;
     font-weight: bold;
     margin-bottom: 5px;

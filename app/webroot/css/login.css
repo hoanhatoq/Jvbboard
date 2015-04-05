@@ -6,7 +6,7 @@ body {
     background-color: white;
     border: 2px solid #3399FF;
     border-radius: 36px;
-    margin: 8% 30%;
+    margin: 30px auto auto;
 	padding: 5% 5% 5%;
 	width: 25%;
 	height:;
@@ -14,41 +14,52 @@ body {
 #h1 {
     background-color: powderblue;
     border: 1px dotted;
-    font-size: 19px;
+    font-size: 15px;
     margin: 0 0 8%;
     text-align: center;
-    width: 99%;
+    width: 190px;
+}
+.error-message {
+    display: none;
 }
 .input.text.required {
     border: 1px dotted;
+    height: 24px;
+    width: 190px;
 }
 .input.text.required > label {
     background-color: powderblue;
+    border-right: 1px dotted;
+    font-size: 12px;
+    padding-left: 3px;
     padding-right: 25px;
-	padding-left: 3px;
-    width: 30%;
-	border-right: 1px dotted;
+    width: 34%;
 }
 
 .input.text.required > input {
     border: medium none;
-    width: 71%;
+    height: 19px;
+    width: 66%;
 }
 .input.password.required {
     border: 1px dotted;
 	border-top:none;
+    width: 190px;
+    height: 23px;
 }
 .input.password.required > label {
     background-color: powderblue;
-    padding-right: 28px;
-	padding-left: 3px;
-    width: 30%;
-	border-right: 1px dotted;
+    border-right: 1px dotted;
+    font-size: 12px;
+    padding-left: 3px;
+    padding-right: 30px;
+    width: 34%;
 }
 
 .input.password.required > input {
     border: medium none;
-    width: 71%;
+    height: 19px;
+    width: 66%;
 }
 
 .check {
@@ -63,6 +74,10 @@ body {
     border-radius: 4px;
     cursor: pointer;
     margin-left: 70px;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
     padding: 2px 15px;
+    /*width: 30%;*/
+}
+.input .error-message {
+    display: none !important;
 }

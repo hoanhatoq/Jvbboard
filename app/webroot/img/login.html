@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title>JVB Login Page</title>
+		
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />		 
+	</head>
+	<body>
+		<div class="container">    
+                <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">  
+                	<?php echo $this->Form->create('User'); ?>                 
+                    <div class="panel panel-info" >
+                            <div class="panel-heading">
+                            <div class="panel-title">JVB Account System</div>
+                            </div>     
+                            <div style="padding-top:20px" class="panel-body" >
+
+                               <!--  <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div> -->
+                                    
+                                <form id="loginform" class="form-horizontal" role="form">
+                                            
+                                    <div style="margin-bottom: 25px" class="input-group">
+                                                <span class="input-group-addon"><?php echo $this->Html->image('icon.jpg',array('class'=>'glyphicon glyphicon-lock'));?></span>
+                                                <?php echo $this->Form->input('username',array('div'=>false,'type'=>'text','class'=>'form-control','name'=>false,'placeholder'=>'username','label' => false,'value'=>false)); ?>                                        
+                                            </div>
+                                        
+                                    <div style="margin-bottom: 25px" class="input-group">
+                                                <span class="input-group-addon">
+                                                    <?php echo $this->Html->image('icon2.JPG',array('class'=>'glyphicon glyphicon-lock'));?>
+
+                                                   </i></span>
+                                                <?php echo $this->Form->input('password',array('type'=>'password','class'=>'form-control','name'=>'password','placeholder'=>'password','label' => false)); ?>
+                                    </div>         
+                                    <div class="input-group">
+                                              <div class="checkbox">
+                                                <label>
+                                                  <?php echo $this->Form->checkbox('',array('type'=>'checkbox','id'=>'login-remembe','name'=>'remember','value'=>'1','label' => false)).'Keep Login'; ?>
+                                                </label>
+                                              </div>
+                                    </div>
+
+                                    <div style="margin-top:10px" class="form-group">
+                                            <!-- Button -->
+                                            <div class="col-sm-12 controls">
+                                              <?php echo $this->Form->input('Login',array('label' => false,'type'=>'submit','id'=>'btn-login','class'=>'btn btn-success'));?>
+
+                                              <span style="color:red"><?php echo $error ?></span>
+                                            </div>
+                                    </div>
+                                </form>
+                            </div>    
+                        </div>
+                    </div>
+            </div>
+	</body>
+</html>
